@@ -1,0 +1,149 @@
+ @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+ $colorbg1: rgb(235,
+ 211,
+ 195);
+ $colorbg2: rgb(10,
+ 151,
+ 161);
+ $colorbg3: rgb(19,
+ 88,
+ 107);
+ $font:'Playfair Display'serif;
+ $fontsize1:40px;
+ $fontsize2:30px;
+ $fontsize3:20px;
+ *::before,
+ *::after {
+     box-sizing: inherit;
+ }
+ 
+ * {
+     margin: 0;
+     padding: 0;
+     list-style: none;
+ }
+ 
+ body {
+     margin: 0;
+     padding: 0;
+     line-height: 2;
+     font-family: $font;
+     background-color: $colorbg2;
+ }
+ 
+ header {
+     display: flex;
+     margin: 20px;
+     background-image: linear-gradient($colorbg1, $colorbg2);
+ }
+ 
+ h1 {
+     position: relative;
+     margin: auto;
+     font-size: $fontsize1;
+     font-family: $font;
+     color: black;
+ }
+ 
+ h2 {
+     font-size: $fontsize2;
+     font-style: normal;
+     font-weight: bold;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     color: black;
+     background-color: rgb(235, 211, 195);
+ }
+ 
+ section {
+     padding: 10px;
+     margin: 20px;
+     margin-top: 15px;
+     justify-content: center;
+     text-align: center;
+     font-family: $font;
+     font-size: $fontsize3;
+ }
+ 
+ footer {
+     font-family: $font;
+     text-align: center;
+     align-items: center;
+     font-size: 20px;
+     color: black;
+ }
+
+ /*Lista de sabores*/
+ 
+ .card {
+     display: flex;
+     justify-content: center;
+     border: solid 4px "$colorbg1";
+     card-text ul li {
+         display: inline-block;
+         text-align: center;
+         align-items: center;
+         font-size: 15px;
+         font-family: $font;
+         color: black;
+     }
+ }
+ /*Pag Formulario de contacto*/
+ 
+ .divForm {
+     padding-left: 100px;
+     .Form {
+         display: inline-block;
+         position: relative;
+         font-size: 20px;
+         font-family: $font;
+         text-align: center;
+     }
+ }
+ 
+ .fa-envelope {
+     font-size: 20px;
+ }
+ 
+ .fa-map-marker-alt {
+     font-size: 20px;
+ }
+ 
+ .fa-ice-cream {
+     font: size 30px;
+ }
+
+ .container1{
+     background: $colorbg2;
+
+
+ }
+
+ .container2{
+
+ }
+
+ .container3{
+
+ }
+
+ /*MEDIA QUERIES*/  
+
+ /*RESOLUCION PARA DISPOSITIVOS MOVILES MUY PEQUEÑOS*/ 
+ @media(max-width: 575px){
+
+ }
+/*RESOLUCION PARA DISPOSITIVOS MOVILES PEQUEÑOS*/ 
+@media(min-widht: 576px) and  (max-widht: 767px){
+
+}
+
+/*Resolucion para tablets*/
+@media(min-widht: 768px) and (max-widh: 991px){
+
+}
+
+/*RESOLUCION PARA PC DE ESCRITORIO*/
+@media(min-width: 992px){
+
+}
+

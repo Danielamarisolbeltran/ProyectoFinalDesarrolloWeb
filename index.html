@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Link bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    
+    <!-- Link Font Awasome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class=" container-fluid">
+
+        <div class="container1">
+            <header>
+                <img src="imagenes/Logodomoblanco.jpg" width="200px" height="auto" alt="Logo Heladeria Domo Blanco" />
+                <h1>Bienvenidos a Domo Blanco</h1>
+            </header>
+
+
+            <nav class="navbar bg-dark navbar-brand sticky-top justify-content-center navbar-expand-sm ">
+                <div class="navbar-nav nav-pills ">
+                    <a class="nav-link active " aria-current="page " href="index.html ">Home</a>
+                    <a class="nav-link text-light bg-dark " href="nosotros.html ">Nosotros</a>
+                    <a class="nav-link text-light bg-dark " href="listas.html ">Nuestros Sabores</a>
+                    <a class="nav-link text-light bg-dark " href="tablas.html ">Productos</a>
+                    <a class="nav-link text-light bg-dark " href="formulario.html ">Contacto</a>
+                </div>
+            </nav>
+        </div>
+
+        <div class="container2">
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+                    <section class="section">
+                        <!--carousel de bootstrap-->
+                        <div class="section__carousel ">
+                            <div id="carouselExampleControls " class="carousel slide " data-bs-ride="carousel ">
+                                <div class="carousel-inner ">
+                                    <div class="carousel-item active ">
+                                        <img src="imagenes/Frente local heladeria.jpg " style="width:100%" class="d-block w-100 " alt="... ">
+                                    </div>
+                                    <div class="carousel-item ">
+                                        <img src="imagenes/entrada-chalten.jpg " style="width:100%" class=" d-block w-100 " alt="... ">
+                                    </div>
+                                    <div class="carousel-item ">
+                                        <img src="imagenes/heladosvarios.jpg " style="width:100%" class=" d-block w-100 " alt="... ">
+                                    </div>
+                                </div>
+                                <button class="button carousel-control-prev " type="button " data-bs-target="#carouselExampleControls " data-bs-slide="prev ">
+            <span class="boton carousel-control-prev-icon " aria-hidden="true "></span>
+            <span class="boton carousel visually-hidden ">Anterior</span>
+                </button>
+                                <button class="button carousel-control-next " type="button " data-bs-target="#carouselExampleControls " data-bs-slide="next ">
+            <span class="boton__carrusel carousel-control-next-icon " aria-hidden="true "></span>
+            <span class="boton carousel visually-hidden ">Siguiente</span>
+                </button>
+                            </div>
+                        </div>
+                        <!--Finzaliza div carousel padre-->
+
+                    </section>
+                </div>
+
+                <div class="container3">
+                    <footer>
+                        <h3><button><i class="far fa-envelope "></i>Contactanos</button></h3>
+
+                        <p>Tel.: 02962 493368.</p>
+                        <p>Desde fuera de Argentina: +54 2962 493368</p>
+
+                        <h3><button><i class="fas fa-map-marker-alt "></i>Ubicación</button></h3>
+                        <p>Encontranos en Av. San Martín 164.</p>
+                        <p>El Chaltén, Provincia de Santa Cruz, Patagonia Argentina.</p>
+
+                        <a href="https://www.whatsapp.com ">
+                            <img src="imagenes/logowhatsapp.png " width="50px " height="50px " alt="Whatsapp ">
+                        </a>
+
+                        <a href="https://es-la.facebook.com ">
+                            <img src="imagenes/facebooklogo.png " width="50px " height="50px " alt="Facebook ">
+                        </a>
+
+                        <a href="https://about.instagram.com ">
+                            <img src="imagenes/instagramlogo.png " width="50px " height="50px " alt="Instagram ">
+                        </a>
+
+                        <hr>
+
+                        <span><p> &copy;Todos los derechos reservados. Beltran Daniela - 2021.</p></span>
+
+                    </footer>
+                </div>
+
+
+            </div>
+            <!--Finaliza col-sm-12-->
+
+        </div>
+        <!--Finaliza class row-->
+    </div>
+    <!--Finaliza Container padre responsive-->
+
+    <!--Scripts de bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+    <script>
+        $('.carousel').carousel();
+    </script>
+    <!-- Script de FontAwesome  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js " integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin=" anonymous ">
+    </script>
+
+</body>
+
+</html>
+
+</html>

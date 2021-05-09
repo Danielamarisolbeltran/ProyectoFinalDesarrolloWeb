@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(248, 243, 236);
+    background-image: radial-gradient(white 30%, rgb(241, 220, 163)70%);
+}
+
+header {
+    display: flex;
+    margin: 20px;
+    background-color: rgb(8, 128, 133);
+    background-image: linear-gradient(to right, rgb(8, 89, 92) , rgb(231, 243, 241));
+   
+}
+
+h1 {
+    position: relative;
+    margin: auto;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: ghostwhite;
+}
+
+h2 {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    background-color: rgb(235, 211, 195);
+}
+
+h3 {
+    text-align: center;
+    padding: 15px;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+.navbar .navbar-nav .nav-link{
+    background-color: rgb(8, 128, 133);
+}
+
+
+
+section {
+    padding: 10px;
+    margin: 20px;
+    margin-top: 15px;
+    justify-content: center;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    
+}
+
+
+footer {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    
+    background: rgb(8, 128, 133);
+   
+}
+
+.footer__p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+.footer__h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+/*Lista de sabores*/
+
+.card {
+    display: flex;
+    justify-content: center;
+    border: solid 4px rgb(182, 238, 240);
+}
+
+
+.card-text ul li {
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+   
+/*.card-columns {
+    @include media-breakpoint-only(lg) {
+         column-count: 4;
+        }
+    @include media-breakpoint-only(xl) {
+        column-count: 5;
+        }
+    }*/
+
+    
+
+
+/*Pag Formulario de contacto*/
+
+.divForm {
+    display:inline-flex; 
+    margin: 40px;
+    padding-left: 100px;
+    
+}
+
+.Form{
+    display: inline;
+    position: relative;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { ...}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { ... }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {...} 
+
