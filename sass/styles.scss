@@ -1,13 +1,7 @@
  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
- $colorbg1: rgb(235,
- 211,
- 195);
- $colorbg2: rgb(10,
- 151,
- 161);
- $colorbg3: rgb(19,
- 88,
- 107);
+ $colorbg1: rgb(235,211,195);
+ $colorbg2: rgb(10,151,161);
+ $colorbg3: rgb(19,88, 107);
  $font:'Playfair Display'serif;
  $fontsize1:40px;
  $fontsize2:30px;
@@ -75,11 +69,10 @@
  /*Lista de sabores*/
  
  .card {
-     display: flex;
+     display: inline-flex;
      justify-content: center;
      border: solid 4px "$colorbg1";
      card-text ul li {
-         display: inline-block;
          text-align: center;
          align-items: center;
          font-size: 15px;
@@ -114,7 +107,6 @@
 
  .container1{
      background: $colorbg2;
-
 
  }
 
