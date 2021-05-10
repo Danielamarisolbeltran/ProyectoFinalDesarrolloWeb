@@ -6,40 +6,33 @@ $font: "Playfair Display" serif;
 $fontsize1: 40px;
 $fontsize2: 30px;
 $fontsize3: 20px;
-*::before,
-*::after {
-  box-sizing: inherit;
-}
+
 * {
     margin: 0;
     padding: 0;
     list-style: none;
   }
 body {
-    /*Header*/
-    header {
-      display: flex;
-      margin: 20px;
-      background-image: linear-gradient($colorbg1, $colorbg2);
-    }
-    /*Footer*/
-    footer {
-      font-family: $font;
-      text-align: center;
-      align-items: center;
-      font-size: 20px;
-      color: black;
-    }
-  }
+margin: 0;
+padding: 0;
+line-height: 2;
+font-family: $font;
+background-color: $colorbg3
+}
 
-
-
-body {
-  margin: 0;
-  padding: 0;
-  line-height: 2;
-  font-family: $font;
-  background-color: $colorbg2;
+/*Header*/
+header {
+display:inline-flexbox;
+margin: 20px;
+background-image: linear-gradient($colorbg1, $colorbg2);
+}
+/*Footer*/
+footer {
+font-family: $font;
+text-align: center;
+align-items: center;
+font-size: 20px;
+color: black;
 }
 
 h1 {
@@ -59,7 +52,7 @@ h2 {
   background-color: rgb(235, 211, 195);
 }
 
-section {
+.container {
   padding: 10px;
   margin: 20px;
   margin-top: 15px;
@@ -69,13 +62,30 @@ section {
   font-size: $fontsize3;
 }
 
-/*Lista de sabores*/
+// CONTACTO
+.container-sabores{
+  justify-content: center;
+  text-align: center;{
+    .row{
+      display: inline-flex;
+      background-color: $colorbg1;
+      justify-content: center;
+      border: solid 4px ;{
+        ul li {
+          text-align: center;
+          align-items: center;
+          font-size: 15px;
+          font-family: $font;
+          color: black;
+      }
+   
+    }
+  }
 
 .card {
   display: inline-flex;
-  justify-content: center;
-  border: solid 4px "$colorbg1";
-  card-text ul li {
+  
+  ul li {
     text-align: center;
     align-items: center;
     font-size: 15px;
@@ -83,6 +93,8 @@ section {
     color: black;
   }
 }
+
+
 /*Pag Formulario de contacto*/
 
 .divForm {

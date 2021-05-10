@@ -19,7 +19,7 @@
 
 <body>
     <!--Header-->
-    <header class="container1">
+    <header>
         <div>
             <img src="imagenes/Logodomoblanco.jpg" width="200px" height="auto" alt="Logo Heladeria Domo Blanco" />
             <h1>Nuestros sabores</h1>
@@ -35,115 +35,91 @@
             <a class="nav-link text-light bg-dark " href="contacto.html">Contacto</a>
         </div>
     </nav>
-    <!--Cards de Bootstrap para los sabores-->
-    <div class="card-columns col-sm-12">
-        <div class="card" style="width: 400px">
-            <img class="card-img-top" src="Imagenes/chocolate.jpg" alt="Heladodechocolate" style="width:100%"
-                height=" auto ">
-            <div class="card-body ">
-                <h2 class="card-title ">Chocolates</h2>
-                <p class="card-text ">
-                <ul>
-                    <li><i class="fas fa-ice-cream "></i> Chocolate clasico: helado de chocolate semiamargo.</li>
+
+    <!-- grids sabores -->
+    <div class="container-sabores row-cols-lg-2 row-cols-md-2 row-cols-sm-1">
+        <!-- CHOCOLATES -->
+        <div id="Chocolates" class="row">
+            <div id="Foto-Choco" class="col-md-4"><img src="Imagenes/chocolate.jpg" alt="Heladodechocolate" width="500px" height="400px"></div>
+            <div id="Sabores-choco" class="col-md-8">
+                <h2>Chocolates</h2>
+                <ul><li><i class="fas fa-ice-cream "></i> Chocolate clasico: helado de chocolate semiamargo.</li>
                     <li><i class="fas fa-ice-cream "></i> Chocolate especial: helado de chocolate con almendras, nueces
-                        y rhum.</li>
+                    y rhum.</li>
                     <li><i class="fas fa-ice-cream "></i> Súper domo: helado de chocolate con salsa de guindas y
-                        trocitos de chocolate en rama.</li>
+                    trocitos de chocolate en rama.</li>
                 </ul>
-                </p>
             </div>
         </div>
-
-        <!--<div class="ListSab1 " style="max-width: 540px "> -->
-        <!--<p class="descripcion "> -->
-
-        <div class="card " style="width:400px ">
-            <img class="card-img-top " src="imagenes/dulcedeleche.jpg " alt="Heladosdedulcedeleche" style="width:100%"
-                height=" auto ">
-            <div class="card-body ">
-                <h2 class="card-title ">Dulces de leche</h2>
-                <p class="card-text ">
-                <ul>
-                    <li><i class="fas fa-ice-cream "></i> Dulce coco: helado de coco con mini merengues y dulce de leche
-                        repostero.</li>
-                    <li><i class="fas fa-ice-cream "></i> Dulce de leche clásico.</li>
-                    <li><i class="fas fa-ice-cream "></i> Dulce de leche granizado: helado de dulce de leche con
-                        trocitos de chocolate.</li>
-                    <li><i class="fas fa-ice-cream "></i> Domo blanco: helado de dulce de leche con trocitos de
-                        chocolate blanco, nueces y rhum.</li>
-                </ul>
-                </p>
+            
+        <!-- DULCE DE LECHE -->
+        <div id="Dulce-de-leche" class="row">
+            <div id="Sabores-ddl" class=col-md-8">
+            <h2>Dulces de leche</h2>
+            <ul>
+                <li><i class="fas fa-ice-cream "></i> Dulce coco: helado de coco con mini merengues y dulce de leche repostero.</li>
+                <li><i class="fas fa-ice-cream "></i> Dulce de leche clásico.</li>
+                <li><i class="fas fa-ice-cream "></i> Dulce de leche granizado: helado de dulce de leche con trocitos de chocolate.</li>
+                <li><i class="fas fa-ice-cream "></i> Domo blanco: helado de dulce de leche con trocitos de chocolate blanco, nueces y rhum.</li>
+            </ul>
             </div>
+             <div id="foto-ddl" class="col-md-4">
+                <img src="Imagenes/dulcedeleche2.jpg" alt="Heladodedulcedeleche" width="500px" height="400px">
+             </div>
+        </div>
+        
+        <!-- CREMAS -->
+        <div id="Foto-cremas" class="col-md-4">
+            <img src="imagenes/heladocremaamericana.jpg " alt="Heladosdecrema" width="500px" height="400px">
+        </div>
+        <div id="Sabores-de-cremas" class="col-md-8">
+            <h2>Cremas</h2>
+            <ul>
+            <li><i class="fas fa-ice-cream "></i> Almendrado: crema de almendras con trocitos de caramelo crocante y almendras tostadas.</li>
+            <li><i class="fas fa-ice-cream "></i> Café con chocolate.</li>
+            <li><i class="fas fa-ice-cream "></i> Crema americana: helado de pura crema.</li>
+            <li><i class="fas fa-ice-cream "></i> Crema flan.</li>
+            <li><i class="fas fa-ice-cream "></i> Crema rusa: crema de nueces con un toque de rhum y nueces picadas.</li>
+            <li><i class="fas fa-ice-cream "></i> Granizado: helado de crema con trocitos de chocolate.</li>
+            <li><i class="fas fa-ice-cream "></i> Menta: helado de menta con bombones de menta bañados en chocolate.</li>
+            <li><i class="fas fa-ice-cream "></i> Sambayón: helado de licor de huevo.</li>
+            <li><i class="fas fa-ice-cream "></i> Tramontana: helado de crema con mini galletitas bañadas en
+             chocolate y dulce de leche repostero.</li>
+            <li><i class="fas fa-ice-cream "></i> Tiramisú: helado de café, chocolate y tía maría, con vainillas embebidas en café y rhum, espolvoreado con cacao dulce.</li>
+            <li><i class="fas fa-ice-cream "></i> Vainilla.</li>
+            </ul>
         </div>
 
-        <div class="card " style="width:400px ">
-            <img class="card-img-top " src="imagenes/cremaamericana.jpg " alt="Heladosdecrema" style="width:100%"
-                height=" auto ">
-            <div class="card-body ">
-                <h2 class="card-title ">Cremas</h2>
-                <p class="card-text ">
-                <ul>
-                    <li><i class="fas fa-ice-cream "></i> Almendrado: crema de almendras con trocitos de caramelo
-                        crocante y almendras tostadas.</li>
-                    <li><i class="fas fa-ice-cream "></i> Café con chocolate.</li>
-                    <li><i class="fas fa-ice-cream "></i> Crema americana: helado de pura crema.</li>
-                    <li><i class="fas fa-ice-cream "></i> Crema flan.</li>
-                    <li><i class="fas fa-ice-cream "></i> Crema rusa: crema de nueces con un toque de rhum y nueces
-                        picadas.</li>
-                    <li><i class="fas fa-ice-cream "></i> Granizado: helado de crema con trocitos de chocolate.</li>
-                    <li><i class="fas fa-ice-cream "></i> Menta: helado de menta con bombones de menta bañados en
-                        chocolate.</li>
-                    <li><i class="fas fa-ice-cream "></i> Sambayón: helado de licor de huevo.</li>
-                    <li><i class="fas fa-ice-cream "></i> Tramontana: helado de crema con mini galletitas bañadas en
-                        chocolate y dulce de leche repostero.
-                    </li>
-                    <li><i class="fas fa-ice-cream "></i> Tiramisú: helado de café, chocolate y tía maría, con vainillas
-                        embebidas en café y rhum, espolvoreado con cacao dulce.</li>
-                    <li><i class="fas fa-ice-cream "></i> Vainilla.</li>
-                </ul>
-                </p>
-            </div>
+        <!-- FRUTALES AL AGUA-->
+        <div id="Sabores-frutales-al-agua" class="col-md-8">
+            <h2>Frutales al agua</h2>  
+            <ul><li><i class="fas fa-ice-cream "></i> Calafate: helado al agua con pulpa de calafates cosechados en la zona.</li>
+                <li><i class="fas fa-ice-cream "></i> Frutilla.</li>
+                <li><i class="fas fa-ice-cream "></i> Limón: helado al agua con jugo de limón.</li>
+                <li><i class="fas fa-ice-cream "></i> Naranja: helado al agua con jugo de naranjas.</li>
+                <li>Pomelo.</li>
+            </ul>
+        </div>
+        <div id="foto-frutales-al-agua" class="col-md-4">
+            <img src="imagenes/heladofrutaalagua.jpg " alt="Heladosalagua" width="500px" height="400px">
         </div>
 
-        <div div class="card " style="width:400px ">
-            <img class="card-img-top " src="imagenes/cucuruchofrutosrujos.jpg " alt="Heladosalagua" style="width:100%"
-                height=" auto ">
-            <div class="card-body ">
-                <h2 class="card-title ">Frutales al agua</h2>
-                <p class="card-text ">
-                <ul>
-                    <li><i class="fas fa-ice-cream "></i> Calafate: helado al agua con pulpa de calafates cosechados en
-                        la zona.</li>
-                    <li><i class="fas fa-ice-cream "></i> Frutilla.</li>
-                    <li><i class="fas fa-ice-cream "></i> Limón: helado al agua con jugo de limón.</li>
-                    <li><i class="fas fa-ice-cream "></i> Naranja: helado al agua con jugo de naranjas.</li>
-                    <li>Pomelo.</li>
-                </ul>
-                </p>
-            </div>
+        <!-- FRUTALES A LA CREMA -->
+        <div id="Foto-frutales-a-la-crema" class="col-md-4"><img src="imagenes/heladosfrutasalacrema.jpg " alt="Heladosalagua" width="500px" height="400px"></div>
+        <div id="Sabores-frutales-a-la-crema" class="col-md-8">
+            <h2>Frutales a la crema</h2>  
+            <ul>
+            <li><i class="fas fa-ice-cream "></i> Banana clásico.</li>
+            <li><i class="fas fa-ice-cream "></i> Banana split: helado de banana con trocitos de chocolate y dulce de leche repostero.</li>
+            <li><i class="fas fa-ice-cream "></i> Cereza a la crema: helado a la crema con cerezas frescas.</li>
+            <li><i class="fas fa-ice-cream "></i> Frambuesa: helado a la crema con frambuesas frescas.</li>
+            <li><i class="fas fa-ice-cream "></i> Frutilla: helado a la crema con frutillas frescas.</li>
+            <li><i class="fas fa-ice-cream "></i> Frutos del bosque: helado de crema con salsa de frutillas,frambuesas, moras y amarenas.
+            </li>
+            </ul>
         </div>
+    </div>    
 
-        <div class="card " style="width:400px ">
-            <img class="card-img-top " src="imagenes/heladoyfrutas.jpg " alt="Heladosalacrema" style="width:100%"
-                height=" auto ">
-            <div class="card-body ">
-                <h2 class="card-title ">Frutales al agua</h2>
-                <p class="card-text ">
-                <ul>
-                    <li><i class="fas fa-ice-cream "></i> Banana clásico.</li>
-                    <li><i class="fas fa-ice-cream "></i> Banana split: helado de banana con trocitos de chocolate y
-                        dulce de leche repostero.</li>
-                    <li><i class="fas fa-ice-cream "></i> Cereza a la crema: helado a la crema con cerezas frescas.</li>
-                    <li><i class="fas fa-ice-cream "></i> Frambuesa: helado a la crema con frambuesas frescas.</li>
-                    <li><i class="fas fa-ice-cream "></i> Frutilla: helado a la crema con frutillas frescas.</li>
-                    <li><i class="fas fa-ice-cream "></i> Frutos del bosque: helado de crema con salsa de frutillas,
-                        frambuesas, moras y amarenas.
-                    </li>
-                </ul>
-                </p>
-            </div>
-        </div>
-    </div>
     <!--Footer-->
     <footer>
         <h3 class="footer__h3">Contactanos</h3>

@@ -19,7 +19,7 @@
 
 <body>
     <!--Header-->
-    <header class="container1">
+    <header>
         <div>
             <img src="imagenes/Logodomoblanco.jpg" width="200px" height="auto" alt="Logo Heladeria Domo Blanco" />
             <h1>Nosotros</h1>
@@ -30,48 +30,52 @@
         <div class="navbar-nav nav-pills ">
             <a class="nav-link text-light bg-dark " aria-current="page" href="index.html ">Home</a>
             <a class="nav-link active " href="nosotros.html ">Nosotros</a>
-            <a class="nav-link text-light bg-dark " href="listas.html ">Nuestros Sabores</a>
-            <a class="nav-link text-light bg-dark " href="tablas.html ">Productos</a>
-            <a class="nav-link text-light bg-dark " href="formulario.html ">Contacto</a>
+            <a class="nav-link text-light bg-dark " href="sabores.html">Nuestros Sabores</a>
+            <a class="nav-link text-light bg-dark " href="productos.html">Productos</a>
+            <a class="nav-link text-light bg-dark " href="contacto.html">Contacto</a>
         </div>
     </nav>
     <!--Titulo-->
     <h1 style="color: black;">Bienvenidos a El Chaltén, Patagonia Argentina.</h1>
-    <br>
-    <!--Carousel-->
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
+    
+    <!--Container carousel-->
+    <div class="container">
+        <div class= "row">     
+            <div class="col-sm-12">
+                <!--Carousel-->
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="Imagenes/entradaalchalten.jpg" class="d-block w-100" alt="..." width="800px" height="600px">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="Imagenes/fotodueño.jpg" class="d-block w-100" alt="..." width="600px" height="600px">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="Imagenes/fotodueños.jpg" class="d-block w-100" alt="..." width="600px" height="600px">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+
+            </div>
         </div>
-        <div class="carousel-inner" with>
-            <div class="carousel-item active">
-                <img src="Imagenes/frentedellocal.jpg" class="d-block w-100" alt="imagen frente del local">
-            </div>
-            <div class="carousel-item">
-                <img src="Imagenes/frentedellocal.jpg" class="d-block w-100" alt="local por dentro">
-            </div>
-            <div class="carousel-item">
-                <img src="Imagenes/frentedellocal.jpg" class="d-block w-100" alt="...">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
+            
+    </div>    
     <!--Texto-->
-    <div>
+    <div class="text">
         <h3>Nuestros comienzos</h3>
         <p>Mi nombre es Marcela. A la edad de 12 años, en enero de 1.982, llego por primera vez con mi
             familia, oriunda de Río Gallegos, a visitar el Chaltén (el cerro, porque el pueblo no existía),
