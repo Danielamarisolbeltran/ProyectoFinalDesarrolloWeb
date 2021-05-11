@@ -17,12 +17,12 @@ margin: 0;
 padding: 0;
 line-height: 2;
 font-family: $font;
-background-color: $colorbg3
+background-color: $colorbg3;
 }
 
 /*Header*/
 header {
-display:inline-flexbox;
+display:inline-block;
 margin: 20px;
 background-image: linear-gradient($colorbg1, $colorbg2);
 }
@@ -52,7 +52,9 @@ h2 {
   background-color: rgb(235, 211, 195);
 }
 
-.container {
+
+.card mb-3 {
+  display: flex;
   padding: 10px;
   margin: 20px;
   margin-top: 15px;
@@ -60,43 +62,23 @@ h2 {
   text-align: center;
   font-family: $font;
   font-size: $fontsize3;
-}
-
-// CONTACTO
-.container-sabores{
-  justify-content: center;
-  text-align: center;{
-    .row{
-      display: inline-flex;
-      background-color: $colorbg1;
-      justify-content: center;
-      border: solid 4px ;{
-        ul li {
-          text-align: center;
-          align-items: center;
-          font-size: 15px;
-          font-family: $font;
-          color: black;
+  .card-body{
+    background-color: black;
+    justify-content: center;
+    border: solid 4px ;{
+          ul li {
+            text-align: center;
+            align-items: center;
+            font-size: 15px;
+            font-family: $font;
+            color: black;
+        }
       }
-   
     }
   }
 
-.card {
-  display: inline-flex;
-  
-  ul li {
-    text-align: center;
-    align-items: center;
-    font-size: 15px;
-    font-family: $font;
-    color: black;
-  }
-}
-
-
-/*Pag Formulario de contacto*/
-
+/*Formulario de contacto*/
+MODIFICAR
 .divForm {
   padding-left: 100px;
   .Form {
