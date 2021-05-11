@@ -12,25 +12,31 @@ $fontsize3: 20px;
     padding: 0;
 }
 
+.container-fluid{
+  width: 100%;
+  margin: 0 auto;
+  
+}
+
 body {
 margin: 0;
 padding: 0;
 font-family: $font;
-background-color: $colorbg3;
+background-color: grey;
+
 }
 
 /*Header*/
 header {
-  div{
-    display: flex;
-    margin: 20px;
-    background-image: linear-gradient($colorbg1, $colorbg2);
-  }
+  background-image: linear-gradient($colorbg1, $colorbg2);
+  
+ }
 
-}
+
 
 h1 {
-  position: ;
+  display:inline-flex;
+  align-content: center;
   margin: auto;
   font-size: $fontsize1;
   font-family: $font;
@@ -51,7 +57,7 @@ footer {
   text-align: center;
   align-items: center;
   font-size: 20px;
-  color: black;
+  background-color:$colorbg3;
   }
 
 .card mb-3 {
@@ -66,7 +72,7 @@ footer {
   .card-body{
     background-color: black;
     justify-content: center;
-    border: solid 4px ;{
+    border: solid 4px ;
           ul li {
             text-align: center;
             align-items: center;
@@ -74,21 +80,16 @@ footer {
             font-family: $font;
             color: black;
         }
-      }
     }
   }
 
 /*Formulario de contacto*/
-MODIFICAR
-#cont {
-  padding-left: 100px;
-  .grid-container {
+#container {
     display: inline-block;
-    position: relative;
     font-size: 20px;
     font-family: $font;
-    text-align: center;
-  }
+    align-items: center;
+    justify-content: center;
 }
 
 .fa-envelope {
@@ -102,7 +103,6 @@ MODIFICAR
 .fa-ice-cream {
   font: size 30px;
 }
-
 
 
 /*MEDIA QUERIES*/
