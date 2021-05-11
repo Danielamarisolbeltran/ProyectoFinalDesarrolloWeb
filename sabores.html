@@ -26,23 +26,40 @@
         </div>        
     </header>
     <!--Navbar-->
-    <nav class="navbar bg-dark navbar-brand sticky-top justify-content-center navbar-expand-sm ">
-        <div class="navbar-nav nav-pills ">
-            <a class="nav-link text-light bg-dark " aria-current="page" href="index.html ">Home</a>
-            <a class="nav-link text-light bg-dark " href="nosotros.html ">Nosotros</a>
-            <a class="nav-link active" href="sabores.html">Nuestros Sabores</a>
-            <a class="nav-link text-light bg-dark " href="productos.html">Productos</a>
-            <a class="nav-link text-light bg-dark " href="contacto.html">Contacto</a>
-        </div>
-    </nav>
+    <div class="container-fluid">
+        <nav class="navbar sticky-top justify-content-center navbar-expand-sm nav-pills navbar-light" style="background-color: #126cac;">
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarToggleExternalContent">   
+                <ul class="navbar-nav ms-auto text-center">
+                    <li class="nav-item">
+                        <a class="nav-link text-light bg-dark " href="index.html ">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light bg-dark" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="sabores.html">Nuestros Sabores</a>
+                    <li class="nav-item">
+                        <a class="nav-link text-light bg-dark" href="productos.html">Productos</a>
+                    </li>  
+                    <li class="nav-item">
+                        <a class="nav-link text-light bg-dark " href="contacto.html">Contacto</a>
+                    </li>             
+                </ul>
+            </div>   
+        </nav>
+    </div>
 
-<!-- CARD 1 CHOCOLATES -->
-    <div class="card mb-3">
+    <div class="container col-xs col-sm col-md col-lg">
+        <!-- CARD 1 CHOCOLATES -->
+        <div class="card mb-3">
         <div class="row g-0">
-          <div class="col-md-6">
+          <div class="col-md-8">
             <img src="Imagenes/chocolate.jpg" alt="Heladodechocolate" width="700px" height="auto">
           </div>
-          <div class="col-md-6">
+          <div class="col-md-4">
             <div class="card-body">
               <h2 class="card-title">Chocolates</h2>
               <p class="card-text">
@@ -55,15 +72,15 @@
             </div>
           </div>
         </div>
-    </div>
+        </div>
 
       <!-- DULCE DE LECHE-->
-      <div class="card mb-3">
+        <div class="card mb-3">
         <div class="row g-0">
-          <div class="col-md-6">
+          <div class="col-md-8">
             <img src="Imagenes/dulcedeleche2.jpg" alt="Heladodedulcedeleche" width="700px" height="auto">
           </div>
-          <div class="col-md-6">
+          <div class="col-md-4">
             <div class="card-body">
               <h2 class="card-title">Dulces de leche</h2>
               <p class="card-text">
@@ -73,19 +90,18 @@
                     <li><i class="fas fa-ice-cream "></i> Dulce de leche granizado: helado de dulce de leche con trocitos de chocolate.</li>
                     <li><i class="fas fa-ice-cream "></i> Domo blanco: helado de dulce de leche con trocitos de chocolate blanco, nueces y rhum.</li>
                 </ul></p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
             </div>
           </div>
         </div>
-      </div>
+        </div>
     
         <!-- CREMAS -->
         <div class="card mb-3">
             <div class="row g-0">
-            <div class="col-md-6">
+            <div class="col-md-8">
             <img src="Imagenes/heladocremaamericana.jpg" alt="Heladosdecrema" width="700px" height="auto">
             </div>
-            <div class="col-md-6">
+            <div class="col-md-4">
             <div class="card-body">
               <h2 class="card-title">Cremas</h2>
               <p class="card-text">
@@ -110,10 +126,10 @@
         <!-- FRUTALES AL AGUA-->
         <div class="card mb-3">
             <div class="row g-0">
-            <div class="col-md-6">
+            <div class="col-md-8">
             <img src="imagenes/heladofrutaalagua.jpg " alt="Heladosalagua" width="700px" height="auto">
             </div>
-            <div class="col-md-6">
+            <div class="col-md-4">
             <div class="card-body">
               <h2 class="card-title">Frutales al agua</h2>
               <p class="card-text">
@@ -132,10 +148,10 @@
         <!-- FRUTALES A LA CREMA -->
         <div class="card mb-3">
             <div class="row g-0">
-            <div class="col-md-6">
+            <div class="col-md-8">
             <img src="imagenes/heladosfrutasalacrema.jpg " alt="Heladosalagua" width="700px" height="auto">
             </div>
-            <div class="col-md-6">
+            <div class="col-md-4">
             <div class="card-body">
               <h2 class="card-title">Frutales a la crema</h2>
               <p class="card-text">
@@ -153,8 +169,11 @@
              </div>
             </div>
         </div>
+
+    </div>
+
         
-    <!--Footer-->
+<!--Footer-->
     <footer>
         <h3 class="footer__h3">Contactanos</h3>
         <p class="footer__p">Tel.: 02962 493368.</p>
@@ -173,8 +192,8 @@
         </a>
         <p class="footer__h3 ">Todos los derechos reservados. 2021.</p>
     </footer>
-    <!--Scripts-->
-    <div>
+ <!--Scripts-->
+<div>
         <!--Bootstrap-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
@@ -187,7 +206,7 @@
             integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ=="
             crossorigin=" anonymous ">
             </script>
-    </div>
+</div>
 </body>
 
 </html>
